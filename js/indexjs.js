@@ -97,28 +97,9 @@ $(function(){
         })
     })
     $(".bg").click(function(){
-        // $(".menuWrap").css("display","none");
-        // $(".bg").css("display","none");
-        // $(".ham").css("display","block");
         $(".botGnb").css("display","block");
         $(".ham").fadeIn(500);
         $(".bg").slideUp(500);
         $(".menuWrap").css("right",-100+"%");
     })
-      
-    
-    // $(".closeBtn").click(function(){
-    //     $(".menuWrap").slideUp(1000);
-    // })
-    
 })
-//resize
-// $(function(){
-//     // var wWidth=$(window).outerWidth();
-//     // $(window).resize(function(){
-//     //     wWidth=$(window).outerWidth();
-//     // })
-//     // if(wWidth>770){
-//     //     $(".botGnb").css("display","none");
-//     // }
-// })
