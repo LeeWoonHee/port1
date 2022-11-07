@@ -1390,6 +1390,7 @@ address>p:first-child{
 @media screen and (max-width:340px){
     .rankingWrap>li>a>P:nth-of-type(2){
         font-size:0.9em;
+        word-break:keep-all ;
     }
     .rankingWrap>li>a>p:nth-child(4){
         display:none;
